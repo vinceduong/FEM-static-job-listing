@@ -1,0 +1,136 @@
+.container {
+  display: grid;
+  grid-template-rows: 156px auto;
+  grid-auto-flow: row;
+}
+
+.header {
+  background-image: url('../public/bg-header-desktop.svg');
+  background-color: hsl(180, 29%, 50%);
+}
+
+.main {
+  background-color: hsl(180, 31%, 95%)
+}
+
+.jobList {
+  max-width: 70%;
+  min-height: 100%;
+  min-width: 700px;
+  padding-top: 60px;
+  align-self: center;
+  margin: 0 auto;
+}
+
+.jobContainer {
+  background-color: white;
+  height: 150px;
+  margin-bottom: 30px;
+  border-radius: 6px;
+  box-shadow: 10px 30px 30px hsl(180, 34%, 85%);
+  border-left-style: solid;
+  border-color: #5CA4A4;
+  border-width: 5px;
+  display: flex;
+}
+
+.jobContainer img {
+  width: 88px;
+  height: 88px;
+  align-self: center;
+  margin-left: 35px;
+}
+
+.infoContainer {
+  align-self: center;
+  margin-left: 15px;
+  display: grid;
+  height: 90px;
+  grid-template-rows: 20px auto 20px;
+  grid-auto-flow: row;
+  width: 50%;
+}
+
+.company {
+  color: #7FA7A4;
+  align-self: center;
+}
+
+.tags {
+  margin-left: 10px;
+  align-self: center;
+  display: flex;
+}
+
+.tags div {
+  padding: 8px;
+  padding-bottom: 6px;
+  border-radius: 15px;
+  color: white;
+  margin-right: 7px;
+  font-size: 0.7em;
+}
+
+.tagNew {
+  background-color: hsl(180, 29%, 50%);
+}
+
+.tagFeatured {
+  background-color: #2B3836;
+}
+
+.infoHeader {
+  display: flex;
+  font-size: 0.80em;
+  font-weight: 700;
+}
+
+.infoMain {
+  align-self: center;
+  font-weight: 700;
+  color:#2B3836;
+}
+
+.infoFooter {
+  display: flex;
+  color: #A1A5A4;
+}
+
+.infoFooter div:not(:first-child) {
+  margin-left: 10px;
+}
+
+.infoFooter div:not(:last-child) {
+  margin-right: 10px;
+}
+
+.infoFooter div {
+  font-size: 0.8em;
+}
+
+.skillTags {
+  align-self: center;
+  width: 50%;
+  justify-content: flex-end;
+  display: flex;
+  margin-right: 40px;
+  font-weight: 700;
+  font-size: 0.8em;
+}
+
+.skillTags div:not(:first-child) {
+  margin-left: 10px;
+}
+
+.skillTags div:not(:last-child) {
+  margin-right: 10px;
+}
+
+.skillTags div {
+  background-color: #E9F4F4;
+  color: #5AA5A4;
+  padding: 8px;
+  padding-bottom: 6px;
+  border-radius: 5px;
+  
+}
